@@ -1,32 +1,42 @@
 about:
-  description: An elegant unit testing framework for C with support for mock objects.
+  description:
+  |
+    An elegant unit testing framework for C with support for mock objects.
   license: Apache-2.0
   homepage: 
   head: ec387ac
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T04:24:53Z
+  collectedAt: 2026-09-04T19:29:48Z
 timeline:
   created: 2015-02-16
   lastCommit: 2022-09-05
-  lastRelease: ?
+  lastRelease: 
 popularity:
   star: 283
   watcher: 15
   fork: 57
   release: 0
-  contributor: 60
-  pullRequest: 5
+  contributor: 55
+  pullRequest: 8
   issue: 17
 language:
   C: 294462
   CMake: 61149
   Python: 3399
   Meson: 3021
-totalLine: 362031
+totalBytes: 362031
 recent:
   last30d:
     since: 2026-08-05
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last60d:
+    since: 2026-07-06
     release: 0
     mergedPR: 0
     openPR: 0
@@ -57,3 +67,21 @@ recent:
     closedIssue: 0
     openIssue: 0
     commit: 0
+  last720d:
+    since: 2024-09-14
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+total:
+  release: 0
+  mergedPR: 3
+  openPR: 0
+  closedIssue: 17
+  openIssue: 0
+  commit: 669
+---
+---
+
