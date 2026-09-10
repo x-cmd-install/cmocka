@@ -12,6 +12,18 @@ An elegant unit testing framework for C with support for mock objects.
 x install cmocka
 ```
 
+## Code insight
+
+Total: **9,246** lines of code across **94** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 4,991 | 895 | 1,116 | 47 |
+| CMake | 1,249 | 343 | 312 | 29 |
+| Css | 1,199 | 32 | 200 | 1 |
+| CHeader | 950 | 1,683 | 216 | 9 |
+| Svg | 653 | 8 | 8 | 8 |
+
 ## Source
 
 - **Upstream**: <https://github.com/clibs/cmocka>
@@ -30,20 +42,30 @@ x install cmocka
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## Code size
+## Distribution status
 
-Total: **9,246** lines of code across **94** files in the top 5 languages.
+Reported by **198** distros on [repology.org](https://repology.org/project/cmocka). **54** are ✅ on the latest upstream release, **128** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| C | 4,991 | 895 | 1,116 | 47 |
-| CMake | 1,249 | 343 | 312 | 29 |
-| Css | 1,199 | 32 | 200 | 1 |
-| CHeader | 950 | 1,683 | 216 | 9 |
-| Svg | 653 | 8 | 8 | 8 |
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.0.2` | ✅ latest |
+| Debian 14 | `2.0.2` | ✅ latest |
+| Debian 13 | `1.1.7` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.0.2` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.1.7` | ⚠️ outdated |
+| Arch | `2.0.2` | ✅ latest |
+| Homebrew | `2.0.2` | ✅ latest |
+| Fedora rawhide | `2.0.2` | ✅ latest |
+| Nix unstable | `2.0.2` | ✅ latest |
+| Void | `2.0.2` | ✅ latest |
+| Alpine edge | `2.0.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.0.2` | ✅ latest |
 
 ## Improve this data
 
@@ -54,4 +76,4 @@ Install metadata for cmocka lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:14:23Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:17:50Z._
