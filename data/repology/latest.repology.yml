@@ -1,9 +1,114 @@
-- repo: conancenter
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: cmocka
+  binname: cmocka
+  visiblename: cmocka
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: newest
+  summary: Elegant unit testing framework for C with support for mock objects
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: multilib
+  srcname: lib32-cmocka
+  binname: lib32-cmocka
+  visiblename: lib32-cmocka
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: newest
+  summary: Elegant unit testing framework for C with support for mock objects
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: cmocka
+  binname: cmocka
+  visiblename: cmocka
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: newest
+  summary: Elegant unit testing framework for C with support for mock objects
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: multilib
+  srcname: lib32-cmocka
+  binname: lib32-cmocka
+  visiblename: lib32-cmocka
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: newest
+  summary: Elegant unit testing framework for C with support for mock objects
+  licenses:
+    - Apache-2.0
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: cmocka
+  binnames:
+    - cmocka-doc
+    - libcmocka0
+    - libcmocka-dev
+  visiblename: cmocka
+  version: 1.1.5
+  origversion: 1.1.5-2
+  status: outdated
+  maintainers:
+    - taffit@debian.org
+    - hefee@debian.org
+  categories:
+    - misc
+- repo: eurolinux_8
+  subrepo: powertools
   srcname: cmocka
   visiblename: cmocka
-  version: 1.1.7
-  origversion: null
+  version: 1.1.2
+  origversion: 1.1.2-1.el8
   status: legacy
+  summary: An elegant unit testing framework for C with support for mock objects
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+- repo: eurolinux_8
+  subrepo: powertools
+  srcname: cmocka
+  visiblename: cmocka
+  version: 1.1.5
+  origversion: 1.1.5-1.el8
+  status: outdated
+  summary: An elegant unit testing framework for C with support for mock objects
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: cmocka
+  binnames:
+    - cmocka-doc
+    - libcmocka0
+    - libcmocka-dev
+  visiblename: cmocka
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: newest
+  maintainers:
+    - taffit@debian.org
+    - hefee@debian.org
+  categories:
+    - misc
+- repo: epel_6
+  srcname: cmocka
+  visiblename: cmocka
+  version: 1.0.1
+  origversion: 1.0.1-1.el6
+  status: outdated
+  summary: Lightweight library to simplify and generalize unit tests for C
+  licenses:
+    - ASL 2.0
+  categories:
+    - Development/Tools
 - repo: adelie_current
   subrepo: user
   srcname: cmocka
@@ -54,6 +159,31 @@
     - Apache-2.0
     - BSD-3-Clause
     - MIT
+- repo: aixtoolbox
+  srcname: cmocka
+  visiblename: cmocka
+  version: 1.1.7
+  origversion: 1.1.7-1
+  status: outdated
+  summary: An elegant unit testing framework for C with support for mock objects
+  licenses:
+    - Apache V2.0 License
+  categories:
+    - Development/Languages
+- repo: almalinux_8
+  subrepo: PowerTools
+  srcname: cmocka
+  visiblename: cmocka
+  version: 1.1.5
+  origversion: 1.1.5-1.el8
+  status: outdated
+  summary: An elegant unit testing framework for C with support for mock objects
+  maintainers:
+    - packager@cloudlinux.com
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
 - repo: almalinux_9
   subrepo: CRB
   srcname: cmocka
@@ -205,70 +335,72 @@
     - jakub@jirutka.cz
   licenses:
     - Apache-2.0
-- repo: aosc
-  srcname: app-devel/cmocka
+- repo: alpine_3_22
+  subrepo: main
+  srcname: cmocka
   binname: cmocka
   visiblename: cmocka
   version: 1.1.7
-  origversion: null
+  origversion: 1.1.7-r2
   status: outdated
-  summary: Unit testing framework for C with support for mock objects
+  summary: An elegant unit testing framework for C with support for mock objects
   maintainers:
-    - fallback-mnt-aosc@repology
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: main
+  srcname: cmocka
+  binname: cmocka-dev
+  visiblename: cmocka-dev
+  version: 1.1.7
+  origversion: 1.1.7-r2
+  status: outdated
+  summary: An elegant unit testing framework for C with support for mock objects (development files)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: cmocka
+  binname: cmocka
+  visiblename: cmocka
+  version: 1.1.7
+  origversion: 1.1.7-r2
+  status: outdated
+  summary: An elegant unit testing framework for C with support for mock objects
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: main
+  srcname: cmocka
+  binname: cmocka-dev
+  visiblename: cmocka-dev
+  version: 1.1.7
+  origversion: 1.1.7-r2
+  status: outdated
+  summary: An elegant unit testing framework for C with support for mock objects (development files)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - Apache-2.0
+- repo: centos_stream_8
+  subrepo: PowerTools
+  srcname: cmocka
+  visiblename: cmocka
+  version: 1.1.5
+  origversion: 1.1.5-1.el8
+  status: outdated
+  summary: An elegant unit testing framework for C with support for mock objects
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - ASL 2.0
   categories:
-    - devel
-- repo: alpine_3_22
-  subrepo: main
-  srcname: cmocka
-  binname: cmocka
-  visiblename: cmocka
-  version: 1.1.7
-  origversion: 1.1.7-r2
-  status: outdated
-  summary: An elegant unit testing framework for C with support for mock objects
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: main
-  srcname: cmocka
-  binname: cmocka-dev
-  visiblename: cmocka-dev
-  version: 1.1.7
-  origversion: 1.1.7-r2
-  status: outdated
-  summary: An elegant unit testing framework for C with support for mock objects (development files)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: cmocka
-  binname: cmocka
-  visiblename: cmocka
-  version: 1.1.7
-  origversion: 1.1.7-r2
-  status: outdated
-  summary: An elegant unit testing framework for C with support for mock objects
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: main
-  srcname: cmocka
-  binname: cmocka-dev
-  visiblename: cmocka-dev
-  version: 1.1.7
-  origversion: 1.1.7-r2
-  status: outdated
-  summary: An elegant unit testing framework for C with support for mock objects (development files)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - Apache-2.0
+    - Unspecified
 - repo: alpine_3_24
   subrepo: main
   srcname: cmocka
@@ -379,6 +511,18 @@
     - ASL 2.0
   categories:
     - Unspecified
+- repo: aosc
+  srcname: app-devel/cmocka
+  binname: cmocka
+  visiblename: cmocka
+  version: 1.1.7
+  origversion: null
+  status: outdated
+  summary: Unit testing framework for C with support for mock objects
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
 - repo: apertis_v2023
   subrepo: v2023/development
   srcname: cmocka
@@ -449,7 +593,7 @@
   maintainers:
     - taffit@debian.org
     - hefee@debian.org
-- repo: arch
+- repo: manjaro_stable
   subrepo: extra
   srcname: cmocka
   binname: cmocka
@@ -465,6 +609,17 @@
   srcname: lib32-cmocka
   binname: lib32-cmocka
   visiblename: lib32-cmocka
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: newest
+  summary: Elegant unit testing framework for C with support for mock objects
+  licenses:
+    - Apache-2.0
+- repo: arch
+  subrepo: extra
+  srcname: cmocka
+  binname: cmocka
+  visiblename: cmocka
   version: 2.0.2
   origversion: 2.0.2-1
   status: newest
@@ -489,30 +644,6 @@
   origversion: 2.0.2-1
   status: newest
   summary: Elegant unit testing framework for C with support for mock objects
-  licenses:
-    - Apache-2.0
-- repo: aur
-  srcname: cmocka-git
-  binname: cmocka-git
-  visiblename: cmocka-git
-  version: 1.1.5.r277.g5912a32
-  origversion: 1.1.5.r277.g5912a32-1
-  status: rolling
-  summary: An unit testing framework for C with support for mock objects
-  maintainers:
-    - chocobo1@aur
-  licenses:
-    - Apache-2.0
-- repo: aur
-  srcname: mingw-w64-cmocka
-  binname: mingw-w64-cmocka
-  visiblename: mingw-w64-cmocka
-  version: 2.0.2
-  origversion: 2.0.2-1
-  status: newest
-  summary: Elegant unit testing framework for C with support for mock objects (mingw-w64)
-  maintainers:
-    - kfg@aur
   licenses:
     - Apache-2.0
 - repo: aur
@@ -563,12 +694,6 @@
     - hipersayan_x@aur
   licenses:
     - Apache
-- repo: conancenter
-  srcname: cmocka
-  visiblename: cmocka
-  version: 1.1.8
-  origversion: null
-  status: outdated
 - repo: aur
   srcname: android-x86-cmocka
   binname: android-x86-cmocka
@@ -581,6 +706,30 @@
     - hipersayan_x@aur
   licenses:
     - Apache
+- repo: aur
+  srcname: mingw-w64-cmocka
+  binname: mingw-w64-cmocka
+  visiblename: mingw-w64-cmocka
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: newest
+  summary: Elegant unit testing framework for C with support for mock objects (mingw-w64)
+  maintainers:
+    - kfg@aur
+  licenses:
+    - Apache-2.0
+- repo: aur
+  srcname: cmocka-git
+  binname: cmocka-git
+  visiblename: cmocka-git
+  version: 1.1.5.r277.g5912a32
+  origversion: 1.1.5.r277.g5912a32-1
+  status: rolling
+  summary: An unit testing framework for C with support for mock objects
+  maintainers:
+    - chocobo1@aur
+  licenses:
+    - Apache-2.0
 - repo: artix
   subrepo: world
   srcname: cmocka
@@ -617,20 +766,6 @@
     - ASL 2.0
   categories:
     - Unspecified
-- repo: centos_stream_8
-  subrepo: PowerTools
-  srcname: cmocka
-  visiblename: cmocka
-  version: 1.1.5
-  origversion: 1.1.5-1.el8
-  status: outdated
-  summary: An elegant unit testing framework for C with support for mock objects
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
 - repo: centos_stream_9
   subrepo: CRB
   srcname: cmocka
@@ -648,6 +783,17 @@
   summary: An elegant unit testing framework for C with support for mock objects
   maintainers:
     - builder@centos.org
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+- repo: epel_7
+  srcname: cmocka
+  visiblename: cmocka
+  version: 1.1.5
+  origversion: 1.1.5-1.el7
+  status: outdated
+  summary: An elegant unit testing framework for C with support for mock objects
   licenses:
     - ASL 2.0
   categories:
@@ -672,17 +818,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: manjaro_unstable
-  subrepo: multilib
-  srcname: lib32-cmocka
-  binname: lib32-cmocka
-  visiblename: lib32-cmocka
-  version: 2.0.2
-  origversion: 2.0.2-1
-  status: newest
-  summary: Elegant unit testing framework for C with support for mock objects
-  licenses:
-    - Apache-2.0
 - repo: centos_stream_10
   subrepo: CRB
   srcname: cmocka
@@ -774,6 +909,18 @@
   summary: Elegant unit testing framework for C with support for mock objects
   licenses:
     - Apache-2.0
+- repo: conancenter
+  srcname: cmocka
+  visiblename: cmocka
+  version: 1.1.8
+  origversion: null
+  status: outdated
+- repo: conancenter
+  srcname: cmocka
+  visiblename: cmocka
+  version: 1.1.7
+  origversion: null
+  status: legacy
 - repo: conancenter
   srcname: cmocka
   visiblename: cmocka
@@ -982,95 +1129,6 @@
     - hefee@debian.org
   categories:
     - devel
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: cmocka
-  binnames:
-    - cmocka-doc
-    - libcmocka0
-    - libcmocka-dev
-  visiblename: cmocka
-  version: 1.1.5
-  origversion: 1.1.5-2
-  status: outdated
-  maintainers:
-    - taffit@debian.org
-    - hefee@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: cmocka
-  binnames:
-    - cmocka-doc
-    - libcmocka0
-    - libcmocka-dev
-  visiblename: cmocka
-  version: 2.0.2
-  origversion: 2.0.2-1
-  status: newest
-  maintainers:
-    - taffit@debian.org
-    - hefee@debian.org
-  categories:
-    - misc
-- repo: epel_6
-  srcname: cmocka
-  visiblename: cmocka
-  version: 1.0.1
-  origversion: 1.0.1-1.el6
-  status: outdated
-  summary: Lightweight library to simplify and generalize unit tests for C
-  licenses:
-    - ASL 2.0
-  categories:
-    - Development/Tools
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: cmocka
-  binname: cmocka
-  visiblename: cmocka
-  version: 2.0.2
-  origversion: 2.0.2-1
-  status: newest
-  summary: Elegant unit testing framework for C with support for mock objects
-  licenses:
-    - Apache-2.0
-- repo: epel_7
-  srcname: cmocka
-  visiblename: cmocka
-  version: 1.1.5
-  origversion: 1.1.5-1.el7
-  status: outdated
-  summary: An elegant unit testing framework for C with support for mock objects
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-- repo: eurolinux_8
-  subrepo: powertools
-  srcname: cmocka
-  visiblename: cmocka
-  version: 1.1.2
-  origversion: 1.1.2-1.el8
-  status: legacy
-  summary: An elegant unit testing framework for C with support for mock objects
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-- repo: eurolinux_8
-  subrepo: powertools
-  srcname: cmocka
-  visiblename: cmocka
-  version: 1.1.5
-  origversion: 1.1.5-1.el8
-  status: outdated
-  summary: An elegant unit testing framework for C with support for mock objects
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
 - repo: eurolinux_9
   subrepo: powertools
   srcname: cmocka
@@ -1173,23 +1231,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: mingw-cmocka
-  binnames:
-    - mingw32-cmocka
-    - mingw64-cmocka
-    - mingw32-cmocka-static
-    - mingw64-cmocka-static
-  visiblename: mingw-cmocka
-  version: 1.1.0
-  origversion: 1.1.0-23.fc41
-  status: outdated
-  summary: MinGW Lightweight library to simplify and generalize unit tests for C
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: cmocka
   binnames:
@@ -1220,6 +1261,23 @@
   summary: MinGW Lightweight library to simplify and generalize unit tests for C
   licenses:
     - ASL 2.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: mingw-cmocka
+  binnames:
+    - mingw32-cmocka
+    - mingw64-cmocka
+    - mingw32-cmocka-static
+    - mingw64-cmocka-static
+  visiblename: mingw-cmocka
+  version: 1.1.0
+  origversion: 1.1.0-23.fc41
+  status: outdated
+  summary: MinGW Lightweight library to simplify and generalize unit tests for C
+  licenses:
+    - Apache-2.0
   categories:
     - Unspecified
 - repo: fedora_42
@@ -1271,6 +1329,17 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: manjaro_stable
+  subrepo: multilib
+  srcname: lib32-cmocka
+  binname: lib32-cmocka
+  visiblename: lib32-cmocka
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: newest
+  summary: Elegant unit testing framework for C with support for mock objects
+  licenses:
+    - Apache-2.0
 - repo: fedora_42
   subrepo: release
   srcname: mingw-cmocka
@@ -1355,6 +1424,18 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: nix_stable_24_05
+  srcname: cmocka
+  visiblename: cmocka
+  version: 1.1.7
+  origversion: null
+  status: outdated
+  summary: Lightweight library to simplify and generalize unit tests for C
+  maintainers:
+    - louis@kragniz.eu
+    - rasen.dubi@gmail.com
+  licenses:
+    - Apache-2.0
 - repo: fedora_rawhide
   subrepo: development
   srcname: cmocka
@@ -1391,18 +1472,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: nix_stable_24_11
-  srcname: cmocka
-  visiblename: cmocka
-  version: 1.1.7
-  origversion: null
-  status: outdated
-  summary: Lightweight library to simplify and generalize unit tests for C
-  maintainers:
-    - louis@kragniz.eu
-    - rasen.dubi@gmail.com
-  licenses:
-    - Apache-2.0
 - repo: freebsd
   srcname: sysutils/cmocka
   binname: cmocka
@@ -1614,17 +1683,6 @@
     - ASL 2.0
   categories:
     - Development/C
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: cmocka
-  binname: cmocka
-  visiblename: cmocka
-  version: 2.0.2
-  origversion: 2.0.2-1
-  status: newest
-  summary: Elegant unit testing framework for C with support for mock objects
-  licenses:
-    - Apache-2.0
 - repo: msys2_clang64
   srcname: mingw-w64-cmocka
   binname: mingw-w64-clang-x86_64-cmocka
@@ -1666,7 +1724,7 @@
   summary: Unit testing framework for C (mingw-w64)
   licenses:
     - spdx:Apache-2.0
-- repo: nix_stable_24_05
+- repo: nix_stable_24_11
   srcname: cmocka
   visiblename: cmocka
   version: 1.1.7
@@ -1854,20 +1912,6 @@
     - ASL 2.0
   categories:
     - Unspecified
-- repo: solus
-  srcname: cmocka
-  binname: cmocka-dbginfo
-  visiblename: cmocka-dbginfo
-  version: 2.0.2
-  origversion: null
-  status: newest
-  summary: Debug symbols for cmocka
-  maintainers:
-    - maddock.evan@vivaldi.net
-  licenses:
-    - Apache-2.0
-  categories:
-    - debug
 - repo: openeuler_25_03
   srcname: cmocka
   binnames:
@@ -1956,12 +2000,10 @@
   binnames:
     - lib64cmocka0
     - lib64cmocka-devel
-    - cmocka-debuginfo
-    - cmocka-debugsource
   visiblename: cmocka
-  version: 1.1.7
-  origversion: 1.1.7-1
-  status: outdated
+  version: 2.0.2
+  origversion: 2.0.2-1
+  status: newest
   summary: C Unit Testing Framework
   maintainers:
     - bero@lindev.ch
@@ -2337,6 +2379,20 @@
     - programming.library
 - repo: solus
   srcname: cmocka
+  binname: cmocka-dbginfo
+  visiblename: cmocka-dbginfo
+  version: 2.0.2
+  origversion: null
+  status: newest
+  summary: Debug symbols for cmocka
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - Apache-2.0
+  categories:
+    - debug
+- repo: solus
+  srcname: cmocka
   binname: cmocka-devel
   visiblename: cmocka-devel
   version: 2.0.2
@@ -2645,63 +2701,5 @@
   origversion: null
   status: outdated
   summary: cmocka is an elegant unit testing framework for C with support for mock objects.
-  licenses:
-    - Apache-2.0
-- repo: aixtoolbox
-  srcname: cmocka
-  visiblename: cmocka
-  version: 1.1.7
-  origversion: 1.1.7-1
-  status: outdated
-  summary: An elegant unit testing framework for C with support for mock objects
-  licenses:
-    - Apache V2.0 License
-  categories:
-    - Development/Languages
-- repo: almalinux_8
-  subrepo: PowerTools
-  srcname: cmocka
-  visiblename: cmocka
-  version: 1.1.5
-  origversion: 1.1.5-1.el8
-  status: outdated
-  summary: An elegant unit testing framework for C with support for mock objects
-  maintainers:
-    - packager@cloudlinux.com
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-- repo: manjaro_stable
-  subrepo: multilib
-  srcname: lib32-cmocka
-  binname: lib32-cmocka
-  visiblename: lib32-cmocka
-  version: 2.0.2
-  origversion: 2.0.2-1
-  status: newest
-  summary: Elegant unit testing framework for C with support for mock objects
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: cmocka
-  binname: cmocka
-  visiblename: cmocka
-  version: 2.0.2
-  origversion: 2.0.2-1
-  status: newest
-  summary: Elegant unit testing framework for C with support for mock objects
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: multilib
-  srcname: lib32-cmocka
-  binname: lib32-cmocka
-  visiblename: lib32-cmocka
-  version: 2.0.2
-  origversion: 2.0.2-1
-  status: newest
-  summary: Elegant unit testing framework for C with support for mock objects
   licenses:
     - Apache-2.0
